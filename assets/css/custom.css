@@ -1,0 +1,29 @@
+*{
+		font-family: 'Source Sans Pro','Lato', sans-serif;
+		font-weight: 400;
+		font-size:16px;
+}
+.smallcaps{
+	font-variant:small-caps;
+
+}
+
+
+#contact a{color:#333333;}
+#contact a:hover {color:#7f7f7f;
+text-decoration: none;}
+
+footer p a{color:#333333;}
+footer p a:hover {color:#7f7f7f;
+text-decoration: none;}
+
+.title{
+	font-family:'Lato';
+}
+
+h1,h2,h3,h4,a{font-family: 'Lato';
+font-weight: 300}
+li a{font-weight: 400}
+.navbar{
+	font-weight: 700;
+}
