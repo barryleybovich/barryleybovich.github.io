@@ -27,3 +27,6 @@ li a{font-weight: 400}
 .navbar{
 	font-weight: 700;
 }
+li a:hover{
+	cursor:pointer;
+}
