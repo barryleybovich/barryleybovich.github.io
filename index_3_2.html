@@ -1,0 +1,175 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Barry Leybovich</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+    <link rel="icon" href="assets_3_2/img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="assets_3_2/img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="assets_3_2/img/favicon.ico">
+    
+    <!-- Le styles -->
+    <link href="assets_3_2/css/bootstrap.css" rel="stylesheet">
+    <link href="assets_3_2/css/custom.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+    
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+     
+    </style>
+    <link href="assets_3_2/css/bootstrap-responsive.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="assets_3_2/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets_3_2/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets_3_2/ico/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets_3_2/ico/apple-touch-icon-72-precomposed.png">
+                    <link rel="apple-touch-icon-precomposed" href="assets_3_2/ico/apple-touch-icon-57-precomposed.png">
+                                   <link rel="shortcut icon" href="assets_3_2/ico/favicon.png">
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top" style="position:fixed; ">
+      <div class="navbar-inner">
+        <div class=>
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse" style="margin-right:20px;">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <p class="brand smallcaps" style="margin-left:10px; margin-bottom:0;font-size:22px;">Barry Charles Leybovich</p>
+          <div class="nav-collapse collapse"  style="margin-left:10px">
+            <ul class="nav smallcaps" style="padding-top:2px" >
+              <li><a onclick="seenew('splash')">Home</a></li>
+              <li><a onclick="seenew('experience')">Experience</a></li>
+              <li><a onclick="seenew('projects')">Design Projects</a></li>
+              <li><a onclick="seenew('education')">Education</a></li>
+              <li><a onclick="seenew('skills')">Skills and Activities</a></li>
+              <li><a data-toggle="modal" href="#contact">Contact</a><li>
+            </ul>
+            
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+
+
+ <div class="container" id="splash">
+
+      <!-- Main hero unit for a primary marketing message or call to action -->
+      <div class="hero-unit title">
+        <h1>Welcome!</h1>
+        <p>Poke around to learn more about me!</p>
+      </div>
+
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="span3">
+          <h3 class="title">Experience</h3>
+          <p>My experience ranges from medical devices to financial services to fitness wearables.</p>
+          <p><a class ="btn" href="./experience.html">View details  &raquo; </a></p>
+        </div>
+        <div class="span3">
+          <h3 class="title">Design Projects</h3>
+          <p>I have worked on several design projects at Johns Hopkins working both with researchers and corporate sponsors.</p>
+          <p><a class="btn" href="./design.html">View details &raquo;</a></p>
+       </div>
+        <div class="span3">
+          <h3 class="title">Education</h3>
+          <p>I have a long history of pushing myself academically, both inside the classroom and out.</p>
+          <p style="margin-bottom:0px"><a class="btn" href="./education.html">View details &raquo;</a></p>
+        </div>
+        <div class="span3">
+          <h3 class="title">Skills and Activities</h3>
+          <p>My skills are constantly evolving and growing, particularly in programming and software.</p>
+          <p><a class="btn" href="./skills.html">View details &raquo;</a></p>
+        </div>
+      </div>
+
+
+
+
+         
+
+      <hr>
+
+    </div> <!-- /container -->
+<div id="contact" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+              <h3 id="myModalLabel">Contact Me</h3>
+            </div>
+            <div class="modal-body">
+              <p><strong>Email: </strong><a href="mailto:bleybovich@gmail.com">bleybovich@gmail.com</a><br>
+                <strong>LinkedIn: </strong><a href="http://www.linkedin.com/in/barryleybovich">Barry C. Leybovich</a></p>
+            </div>
+            <div class="modal-footer">
+            </div>
+          </div>
+
+   
+   
+
+
+
+
+
+
+
+
+<div class="container" id="foot">
+      <footer>
+        <p>&copy; Barry Leybovich | <a target="_blank" href="mailto:bleybovich@gmail.com">Email</a> | <a target="_blank" href="http://www.linkedin.com/in/barryleybovich">LinkedIn</a></p>
+      </footer>
+</div>
+     <!-- /container -->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script>  
+var seenew=function(id){
+  var coll=document.getElementsByClassName('container')
+  var i= coll.length;
+  for (j=0;j<i;j++){
+    coll[j].style.display="none";
+}
+
+  document.getElementById(id).style.display="block";
+
+  document.getElementById("foot").style.display="block";
+  };
+  seenew('splash');
+
+
+    </script>
+    <script src="assets_3_2/js/jquery-2.0.3.min.js"></script>
+    <script src="assets_3_2/js/bootstrap.min.js"></script>
+<!-- <script src="assets_3_2/js/bootstrap-alert.js"></script>
+    <script src="assets_3_2/js/bootstrap-modal.js"></script>
+    <script src="assets_3_2/js/bootstrap-dropdown.js"></script>
+    <script src="assets_3_2/js/bootstrap-scrollspy.js"></script>
+    <script src="assets_3_2/js/bootstrap-tab.js"></script>
+    <script src="assets_3_2/js/bootstrap-tooltip.js"></script>
+    <script src="assets_3_2/js/bootstrap-popover.js"></script>
+    <script src="assets_3_2/js/bootstrap-button.js"></script>
+    <script src="assets_3_2/js/bootstrap-collapse.js"></script>
+    <script src="assets_3_2/js/bootstrap-carousel.js"></script>
+    <script src="assets_3_2/js/bootstrap-typeahead.js"></script> -->
+
+  </body>
+</html>
