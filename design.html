@@ -1,3 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <title>Barry Leybovich</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+    <link rel="icon" href="assets_3_2/img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="assets_3_2/img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="assets_3_2/img/favicon.ico">
+    
+    <!-- Le styles -->
+    <link href="assets_3_2/css/bootstrap.css" rel="stylesheet">
+    <link href="assets_3_2/css/custom.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+    
+  
+    <link href="assets_3_2/css/bootstrap-responsive.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="assets_3_2/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets_3_2/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets_3_2/ico/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets_3_2/ico/apple-touch-icon-72-precomposed.png">
+                    <link rel="apple-touch-icon-precomposed" href="assets_3_2/ico/apple-touch-icon-57-precomposed.png">
+                                   <link rel="shortcut icon" href="assets_3_2/ico/favicon.png">
+  </head>
+
+
+  <body>
+
+        <nav class="navbar navbar-default" role="navigation">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Barry C. Leybovich</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+                <li ><a href="index_3_2.html">Home</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li class="active"><a href="design.html">Design Projects</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="skills.html">Skills and Activities</a></li>
+
+                <li><a data-toggle="modal" data-target="#contact">Contact</a></li> 
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
+
+
  <div class="container" id="projects">
 
       <!-- Main hero unit for a primary marketing message or call to action -->
@@ -13,7 +81,7 @@
  
         <div class="span10 offset1">
           <p style="float:left; font-size:20px; line-height:25px;" class="title"><strong style="font-size:28px">Improving Obstetric Forceps</strong><br>Design Team, Spring 2012- Spring 2013</p>
-          <a style="float:right; margin-right: 15%" href="#dt7" role="button" class="btn" data-toggle="modal">See More &raquo;</a>
+          <a style="float:right; margin-right: 15%" href="#dt7" role="button" class="btn btn-default" data-toggle="modal">See More &raquo;</a>
           <ul style="clear:both; padding-right:15%">
             <li>Worked with obstetricians and gynecologists to determine product need and defining engineering requirements.</li>
             <li>Designed and implemented electrical circuits to determine proper trajectory of forceps.</li>
@@ -29,7 +97,7 @@
 
         <div class="span10 offset1">
           <p style="float:left; font-size:20px;line-height:25px;"><strong style="font-size:28px">Remote Cardiac Monitoring and Alerting</strong><br>Honors Instrumentation, Winter 2013</p>
-          <a style="float:right; margin-right: 15%" href="#ecg" role="button" class="btn" data-toggle="modal">See More &raquo;</a>
+          <a style="float:right; margin-right: 15%" href="#ecg" role="button" class="btn btn-default" data-toggle="modal">See More &raquo;</a>
           <ul style="clear:both; padding-right:15%">
             <li>Assessed current state of remote cardiac monitoring to determine product need and feature requirements.</li>
             <li>Designed and implemented wearable system to acquire and wirelessly send ECG data to a server.</li>
@@ -49,8 +117,8 @@
       <div class="row">
 
         <div class="span10 offset1">
-          <p class="title" style="float:left; font-size:1.2em;line-height: 1em;"><strong style="font-size:1.35em">Robotic Autonomy and Its Use in Floor Plan Mapping</strong><br>Electronics Design Lab, Spring 2013</p>
-          <a style="float:right; margin-right: 15%" href="#edl" role="button" class="btn" data-toggle="modal">See More &raquo;</a>
+          <p class="title" style="float:left; font-size:1.2em;line-height: 1.1em;"><strong style="font-size:1.35em">Robotic Autonomy and Its Use in Floor Plan Mapping</strong><br>Electronics Design Lab, Spring 2013</p>
+          <a style="float:right; margin-right: 15%" data-target="#edl" role="button" class="btn btn-default" data-toggle="modal">See More &raquo;</a>
           <ul style="clear:both; padding-right:15%">
             <li>Set up environment for gathering data from Kinect using Visual Studio.</li>
             <li>Modified remote control car to allow direct control of steering and acceleration.</li>
@@ -66,7 +134,7 @@
         
         <div class="span10 offset1">
           <p class="title" style="float:left; font-size:20px;line-height:25px;"><strong style="font-size:28px">Fiber Optic Tuohy Needle</strong><br>Design Team, Fall 2010- Spring 2013</p>
-          <a style="float:right; margin-right: 15%" href="#dt10" role="button" class="btn" data-toggle="modal">See More &raquo;</a>
+          <a style="float:right; margin-right: 15%" href="#dt10" role="button" class="btn btn-default" data-toggle="modal">See More &raquo;</a>
           
           <ul style="clear:both; padding-right:15%">
             <li>Developed testing protocol and performed bench testing to determine scientific basis for design.</li>
@@ -79,34 +147,76 @@
         </div>
      </div>
            
-          <!-- Modal -->
-              <div id="edl" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="; max-height: 100%" >
+             
+
+
+            <hr>
+            </div>
+
+
+<div class="container" id="foot">
+      <footer>
+        <p>&copy; Barry Leybovich | <a target="_blank" href="mailto:bleybovich@gmail.com">Email</a> | <a target="_blank" href="http://www.linkedin.com/in/barryleybovich">LinkedIn</a></p>
+      </footer>
+</div>
+
+
+
+<!-- Modal -->
+          <div class="modal fade" id="contact" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
                 <div class="modal-header">
-                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                  <h3 id="myModalLabel">Final Presentation Poster</h3>
-                  <h5>Click for full size image.</h5>
+                  <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                  <h4 class="modal-title" id="myModalLabel">Contact Me</h4>
                 </div>
-                <div class="modal-body" style="max-height:none;">
+                <div class="modal-body">
+                 
+                        <p><strong>Email: </strong><a href="mailto:bleybovich@gmail.com">bleybovich@gmail.com</a><br>
+                          <strong>LinkedIn: </strong><a href="http://www.linkedin.com/in/barryleybovich">Barry C. Leybovich</a></p>
+                </div>
+                <div class="modal-footer"></div>  
+              </div>
+            </div>
+          </div>
+
+          <div class="modal fade" id="edl" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                  <h3 class="modal-title" id="myModalLabel">Final Presentation Poster</h3>
+                    <h5>Click for full size image.</h5>
+                </div>
+                <div class="modal-body" >
                   <a href="assets_3_2/img/edl.png" target="_blank">
-                    <img src="assets_3_2/img/edl.png" >
+                    <img style="max-width:100%;" src="assets_3_2/img/edl.png" >
                   </a>
-                </div>
+                </div>        
+                <div class="modal-footer"></div>  
               </div>
+            </div>
+          </div>
 
-              <div id="dt7" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="; max-height: 100%" >
+             <div id="dt7" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
                 <div class="modal-header">
-                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
                   <h3 id="myModalLabel">Final Presentation Poster</h3>
                   <h5>Click for full size image.</h5>
                 </div>
-                <div class="modal-body" style="max-height:none;">
+                <div class="modal-body" >
                   <a href="assets_3_2/img/dt7.jpg" target="_blank">
-                    <img src="assets_3_2/img/dt7.jpg" >
+                    <img style="max-width :100%;" src="assets_3_2/img/dt7.jpg" >
                   </a>
                 </div>
+              </div></div>
               </div>
 
-              <div id="dt10" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="; max-height: 100%" >
+              <div id="dt10" class="modal  fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" >
+                              <div class="modal-dialog">
+                <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
                   <h3 id="myModalLabel">Final Presentation Poster</h3>
@@ -114,23 +224,46 @@
                 </div>
                 <div class="modal-body" style="max-height:none;">
                   <a href="assets_3_2/img/dt10.png" target="_blank">
-                    <img src="assets_3_2/img/dt10.png" >
+                    <img style="max-width:100%;" src="assets_3_2/img/dt10.png" >
                   </a>
-                </div>
+                </div></div></div>
               </div>
 
-              <div id="ecg" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="; max-height: 100%" >
+              <div id="ecg" class="modal  fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                              <div class="modal-dialog">
+                <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
                   <h3 id="myModalLabel">Final Presentation Poster</h3>
                   <h5>Click for full size image.</h5>
                 </div>
-                <div class="modal-body" style="max-height:none;">
+                <div class="modal-body" >
                   <a href="assets_3_2/img/ecg.jpg" target="_blank">
-                    <img src="assets_3_2/img/ecg.jpg" >
+                    <img style="max-width:100%;" src="assets_3_2/img/ecg.jpg" >
                   </a>
-                </div>
+                </div></div></div>
               </div>
 
-            <hr>
-            </div>
+
+     <!-- /container -->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+  
+    <script src="assets_3_2/js/jquery-2.0.3.min.js"></script>
+    <script src="assets_3_2/js/bootstrap.min.js"></script>
+<!-- <script src="assets_3_2/js/bootstrap-alert.js"></script>
+    <script src="assets_3_2/js/bootstrap-modal.js"></script>
+    <script src="assets_3_2/js/bootstrap-dropdown.js"></script>
+    <script src="assets_3_2/js/bootstrap-scrollspy.js"></script>
+    <script src="assets_3_2/js/bootstrap-tab.js"></script>
+    <script src="assets_3_2/js/bootstrap-tooltip.js"></script>
+    <script src="assets_3_2/js/bootstrap-popover.js"></script>
+    <script src="assets_3_2/js/bootstrap-button.js"></script>
+    <script src="assets_3_2/js/bootstrap-collapse.js"></script>
+    <script src="assets_3_2/js/bootstrap-carousel.js"></script>
+    <script src="assets_3_2/js/bootstrap-typeahead.js"></script> -->
+
+  </body>
+</html>
