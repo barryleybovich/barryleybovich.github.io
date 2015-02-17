@@ -88,12 +88,35 @@
       </div>
 
       <!-- Example row of columns -->
+
+
+       <div class="row">
+          
+ 
+        <div class="span10 offset1">
+          <p style="float:left; font-size:20px; line-height:25px;" class="title"><strong style="font-size:28px">Psychometric Functions</strong><br>Systems Bioenginnering</p>
+          <a style="float:right; margin-right: 15%" href="#psychofunctions" role="button" class="btn btn-default" data-toggle="modal">See More &raquo;</a>
+          <a style="float:right; margin-right: 3%" href="https://github.com/barryleybovich/Psychometric_Functions/tree/master/Hearing" role="button" class="btn btn-default" data-toggle="modal">Github &raquo;</a>
+          <div style="clear:both; padding-right:15%"><b>Background</b>
+            <p>When we listen to a periodic sequence of brief sounds, we may perceive it as being continuous or discrete depending on the interval between the sounds. For example, for a periodic sequence of clicks, we perceive it as being discrete if the inter-click interval (ICI) is 100 ms (corresponding to a repetition rate (f<sub>0</sub>) of 10 Hz, f<sub>0</sub> = 1/ICI) or continuous if the ICI is 10 ms (corresponding to f<sub>0</sub> =100 Hz). Acoustically, the click sequence is discrete in both cases. </p>
+            <b>Hearing Experiment 1</b>
+            <p>Script generates 7 distinct periodic sequences of clicks, each with a different repetition rate f<sub>0</sub> (2, 4, 8, 16, 32, 64, 128 Hz). Each sequence is played 10 times (for 70 sequences total), all played in random order. Responses by the user (discrete or continuous) are recorded; after the experiment is over, the script calculates the boundry frequency- f<sub>0</sub>- at which the user has a 50% probability of hearing the clicks as continuous.</p>
+            <b>Hearing Experiment 2</b>
+            <p>An irregular click sequence is produced by using ICIs drawn from a uniform distribution centered at a mean ICI. For example, for an irregular click sequence with a mean ICI of 20 ms and 10% jitter, ICIs are chosen from a uniform distribution between [18, 22] ms. Your behavioral task in this experiment is to determine if a click sequence sounds “aperiodic” or “periodic”. Obtains psychometric functions for the conditions: ICI = 10ms; 25ms; 100ms.</p>
+          </div>
+        </div>
+      </div>
+      
+      <div><br><br></div>
+
+
+
        <div class="row">
           
  
         <div class="span10 offset1">
           <p style="float:left; font-size:20px; line-height:25px;" class="title"><strong style="font-size:28px">NBA Three-Point Data Scraping</strong><br>Personal, February 2015</p>
-          <a style="float:right; margin-right: 15%" href="https://github.com/barryleybovich/Three_Point_Scraping" role="button" class="btn btn-default" data-toggle="modal">See More &raquo;</a>
+          <a style="float:right; margin-right: 15%" href="https://github.com/barryleybovich/Three_Point_Scraping" role="button" class="btn btn-default" data-toggle="modal">Github &raquo;</a>
           <ul style="clear:both; padding-right:15%">
             <li>Created Node.js scraper to visit ESPN and read NBA three point attempt statistics.</li>
             <li>Crawled to additional pages to return player height information not found on original table.</li>
@@ -114,7 +137,7 @@
  
         <div class="span10 offset1">
           <p style="float:left; font-size:20px; line-height:25px;" class="title"><strong style="font-size:28px">NFL Data Scraping</strong><br>Personal, Spring 2014</p>
-          <a style="float:right; margin-right: 15%" href="https://github.com/barryleybovich/NFL_Scraping" role="button" class="btn btn-default" data-toggle="modal">See More &raquo;</a>
+          <a style="float:right; margin-right: 15%" href="https://github.com/barryleybovich/NFL_Scraping" role="button" class="btn btn-default" data-toggle="modal">Github &raquo;</a>
           <ul style="clear:both; padding-right:15%">
             <li>Learned basics of node.js via learnyounode.</li>
             <li>Created scraper to visit ESPN and read NFL player data.</li>
@@ -249,6 +272,29 @@
               </div>
             </div>
           </div>
+
+          <div class="modal fade" id="psychofunctions" tabindex="-1" role="dialog" aria-labelledby="myModalLabelPF" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                  <h3 class="modal-title" id="myModalLabelPF">Example Psychometric Output</h3>
+                    <h5>Click for full size image.</h5>
+                </div>
+                <div class="modal-body" ><b>Experiment 1 Personal Results</b>
+                  <a href="assets_3_2/img/Exp1_ExampleResults.jpg" target="_blank">
+                    <img style="max-width:100%;" src="assets_3_2/img/Exp1_ExampleResults.jpg" alt="Experiment 1 Personal Results" >
+                  </a>
+                  <b>Experiment 2 Personal Results</b>
+                  <a href="assets_3_2/img/Exp2_ExampleResults.jpg" target="_blank">
+                    <img style="max-width:100%;" src="assets_3_2/img/Exp2_ExampleResults.jpg" alt="Experiment 2 Personal Results" >
+                  </a>
+                </div>        
+                <div class="modal-footer"></div>  
+              </div>
+            </div>
+          </div>
+
 
              <div id="dt7" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabelDT7" aria-hidden="true">
               <div class="modal-dialog">
