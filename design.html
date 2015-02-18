@@ -97,13 +97,16 @@
           <p style="float:left; font-size:20px; line-height:25px;" class="title"><strong style="font-size:28px">Psychometric Functions</strong><br>Systems Bioenginnering</p>
           <a style="float:right; margin-right: 15%" href="#psychofunctions" role="button" class="btn btn-default" data-toggle="modal">See More &raquo;</a>
           <a style="float:right; margin-right: 3%" href="https://github.com/barryleybovich/Psychometric_Functions/tree/master/Hearing" role="button" class="btn btn-default" data-toggle="modal">Github &raquo;</a>
-          <div style="clear:both; padding-right:15%"><b>Background</b>
-            <p>When we listen to a periodic sequence of brief sounds, we may perceive it as being continuous or discrete depending on the interval between the sounds. For example, for a periodic sequence of clicks, we perceive it as being discrete if the inter-click interval (ICI) is 100 ms (corresponding to a repetition rate (f<sub>0</sub>) of 10 Hz, f<sub>0</sub> = 1/ICI) or continuous if the ICI is 10 ms (corresponding to f<sub>0</sub> =100 Hz). Acoustically, the click sequence is discrete in both cases. </p>
+          <ul style="clear:both; padding-right:15%">
             <b>Hearing Experiment 1</b>
-            <p>Script generates 7 distinct periodic sequences of clicks, each with a different repetition rate f<sub>0</sub> (2, 4, 8, 16, 32, 64, 128 Hz). Each sequence is played 10 times (for 70 sequences total), all played in random order. Responses by the user (discrete or continuous) are recorded; after the experiment is over, the script calculates the boundry frequency- f<sub>0</sub>- at which the user has a 50% probability of hearing the clicks as continuous.</p>
+            <li>Script generates 7 distinct periodic sequences of clicks, each with a different repetition rate f<sub>0</sub> (2, 4, 8, 16, 32, 64, 128 Hz).</li>
+            <li> Each sequence is played 10 times (for 70 sequences total), all played in random order. Responses by the user (discrete or continuous) are recorded.</li>
+            <li>The script calculates the boundry frequency- f<sub>0</sub>- at which the user has a 50% probability of hearing the clicks as continuous.</li>
             <b>Hearing Experiment 2</b>
-            <p>An irregular click sequence is produced by using ICIs drawn from a uniform distribution centered at a mean ICI. For example, for an irregular click sequence with a mean ICI of 20 ms and 10% jitter, ICIs are chosen from a uniform distribution between [18, 22] ms. Your behavioral task in this experiment is to determine if a click sequence sounds “aperiodic” or “periodic”. Obtains psychometric functions for the conditions: ICI = 10ms; 25ms; 100ms.</p>
-          </div>
+            <li>An irregular click sequence is produced by using ICIs drawn from a uniform distribution centered at a mean ICI.</li>
+            <li>Experiment has user determine if a click sequence sounds “aperiodic” or “periodic”.</li>
+            <li>Obtains psychometric functions for the conditions: ICI = 10ms; 25ms; 100ms.</li>
+          </ul>
         </div>
       </div>
       
