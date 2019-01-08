@@ -7,7 +7,9 @@
 	font-variant:small-caps;
 
 }
-
+.home-link{
+	font-size: 21px
+}
 
 #contact a{color:#333333;}
 #contact a:hover {color:#7f7f7f;
