@@ -99,6 +99,7 @@
            <li class=""><a href="puppies">Puppies</a></li>
           </ul>
         </li>
+        <li><a data-toggle="modal" data-target="#contact">Contact</a></li>
       </div><!--navbar-->
       </div><!-- /.container-fluid -->
     </nav>
@@ -112,8 +113,13 @@
         <h1>Experience</h1>
 
       </div>
+        <div class="row">
+     <div class="col-xs-6 col-md-4 offset2">
+    <a href="#bofa" class="thumbnail">
+      <img src="assets_3_2/img/bofa.png" style="height:125px"  alt="Bank of America">
+    </a>
+</div>
 
-   <div class="row">
 
      <div class="col-xs-6 col-md-4">
     <a href="#ipc" class="thumbnail">
@@ -121,17 +127,19 @@
     </a>
   </div>
 
-  <div class="col-xs-6 col-md-4">
+  <div class="col-xs-6 col-md-4 offset2">
     <a href="#unpakt" class="thumbnail">
       <img src="assets_3_2/img/unpakt.jpg" style="height:125px"  alt="Unpakt">
     </a>
   </div>
-    <div class="col-xs-6 col-md-4">
+
+
+    <div class="col-xs-6 col-md-4 ">
     <a href="#atlas" class="thumbnail">
-      <img src="assets_3_2/img/atlas.png" style="height:125px" alt="Atlas Wearables">
-    </a><!--
+      <img src="assets_3_2/img/atlas.png" style="height:125px; width: 125px" alt="Atlas Wearables">
+    </a>
   </div>
-    <div class="col-xs-6 col-md-4">
+   <!-- <div class="col-xs-6 col-md-4">
     <a href="#jhh" class="thumbnail">
       <img src="assets_3_2/img/jhh.png" style="height:125px" alt="Johns Hopkins Medicine">
     </a>
@@ -147,13 +155,24 @@
       <img src="assets_3_2/img/Thomson_Reuters.png" style="height:125px" alt="Thomson Reueters">
     </a>
 -->
-  </div>
-
-      <!-- Example row of columns -->
+  
  <div><br><br></div>
+ 	
+      <div class="row" id="bofa">
 
+        <div class="col-md-10 offset1">
+          <p style="float:left; font-size:20px"><strong style="font-size:28px">Bank of America</strong><br>Product Manager, Real Time Communications, Automation and Special Projects (Contractor)</p>
+          <p style="float:right; font-size:16px; text-align:right"><strong style="font-size:22px">New York</strong><br>June 2019 - Present</p>
 
+          <div style="clear:both;">
+            Bank of America is a leading global investment and retail bank and financial services institution, servicing over 10% of all American bank deposits. 
+            The Real Time Communications team handles all Bank infrastructure for communications technology such as the infrastrcutre running America's largest call center and second-largest trading floor.
+            At Bank of America, I built out the automation roadmap to improve service, improve asset management, and decrease time to provision for key trader functionality.  I designed mockups, interviewed users, created user stories, and helped train the operations team. Additionally, I managed the testing of new technologies in production settings to improve trader productivity.
 
+          </div>
+        </div>
+      </div>
+ <div><br><br></div>
       <div class="row" id="ipc">
 
         <div class="col-md-10 offset1">
@@ -196,8 +215,8 @@
           <div style="clear:both;">
           Atlas started with a the simple idea that fitness trackers are stupid.
           At worst they counted arbitrary points (Nike Fuelband), or otherwise counted calories but were unable to differentiate walking from squating.
-          Working with a classmate from Hopkins I built several prototypes and helped build an ANN algorithm which could differentiate different excercises in real-time based on data from the device - think Music Genome Project for exercise.
-          Together with an electrical engineer, we launched Atlas Wearables and raised a six-figure seed round.
+          Working with a classmate from Hopkins I designed and built several prototypes and helped build an ANN algorithm which could differentiate different excercises in real-time based on data from the device - think Music Genome Project for exercise.
+          Together with an electrical engineer, we launched Atlas Wearables, partook in Techstars' 2013 Austin cohort, and raised a six-figure seed round.
           </div>
         </div>
       </div>
@@ -258,7 +277,7 @@
 
         <hr>
       </div>
--->
+
 </div>
 
 <div class="container" id="foot">
@@ -267,6 +286,13 @@
       </footer>
 </div>
 
+-->
+<div class="container" id="foot">
+       <hr>
+      <footer>
+        <p>&copy; Barry Leybovich | <a target="_blank" href="mailto:bleybovich@gmail.com">Email</a> | <a target="_blank" href="http://www.linkedin.com/in/barryleybovich">LinkedIn</a></p>
+      </footer>
+</div>
 
 <!-- Modal -->
 <div class="modal fade" id="contact" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
